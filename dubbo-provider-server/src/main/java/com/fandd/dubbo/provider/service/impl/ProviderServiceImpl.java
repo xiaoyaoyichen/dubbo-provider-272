@@ -3,13 +3,15 @@ package com.fandd.dubbo.provider.service.impl;
 import com.fangdd.dubbo.provider.dto.CommonResponse;
 import com.fangdd.dubbo.provider.dto.Student;
 import com.fangdd.dubbo.provider.service.ProviderService;
+import org.springframework.stereotype.Service;
 
 /**
  * This is Description
  *
- * @author chenruifeng
- * @date 2019/08/16
+ * @author chenruifeng 2019/08/16
  */
+@Service
+@com.alibaba.dubbo.config.annotation.Service(version = "1.0.0")
 public class ProviderServiceImpl implements ProviderService {
     @Override
     public void print() {
