@@ -1,6 +1,6 @@
 package com.fandd.dubbo.provider.service.impl;
 
-import com.fangdd.common.basic.CommonResponse;
+import com.fangdd.dubbo.provider.dto.CommonResponse;
 import com.fangdd.dubbo.provider.dto.Student;
 import com.fangdd.dubbo.provider.service.ProviderService;
 
@@ -132,7 +132,7 @@ public class ProviderServiceImpl implements ProviderService {
     }
 
     @Override
-    public CommonResponse<Void> getSuccessResponse() {
+    public CommonResponse getSuccessResponse() {
         return null;
     }
 

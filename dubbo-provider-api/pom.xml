@@ -12,11 +12,11 @@
     <artifactId>dubbo-provider-api</artifactId>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>com.fangdd</groupId>
             <artifactId>fdd-common-basic</artifactId>
             <version>1.0.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
 </project>

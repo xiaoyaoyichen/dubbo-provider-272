@@ -1,6 +1,6 @@
 package com.fangdd.dubbo.provider.service;
 
-import com.fangdd.common.basic.CommonResponse;
+import com.fangdd.dubbo.provider.dto.CommonResponse;
 import com.fangdd.dubbo.provider.dto.Student;
 
 /**
@@ -225,7 +225,7 @@ public interface ProviderService {
      * 返回值：对象
      * @return
      */
-    CommonResponse<Void> getSuccessResponse();
+    CommonResponse getSuccessResponse();
 
     /**
      * 参数：一个基本类型
