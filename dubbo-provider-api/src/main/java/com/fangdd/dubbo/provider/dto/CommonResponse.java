@@ -1,12 +1,14 @@
 package com.fangdd.dubbo.provider.dto;
 
+import java.io.Serializable;
+
 /**
  * This is Description
  *
  * @author chenruifeng
  * @date 2019/8/17
  */
-public class CommonResponse<T> {
+public class CommonResponse<T> implements Serializable {
 
     private static final Integer SUCCESS_CODE = 200;
     private static final String SUCCESS_MSG = "Success";
@@ -55,5 +57,14 @@ public class CommonResponse<T> {
 
     public void setData(T data) {
         this.data = data;
+    }
+
+    @Override
+    public String toString() {
+        return "CommonResponse{" +
+                "code=" + code +
+                ", msg='" + msg + '\'' +
+                ", data=" + data +
+                '}';
     }
 }

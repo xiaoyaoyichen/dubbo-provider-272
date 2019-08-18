@@ -1,12 +1,14 @@
 package com.fangdd.dubbo.provider.dto;
 
+import java.io.Serializable;
+
 /**
  * This is Description
  *
  * @author chenruifeng
  * @date 2019/08/16
  */
-public class Student {
+public class Student implements Serializable {
 
     private String name;
 
@@ -45,5 +47,14 @@ public class Student {
 
     public void setGender(Byte gender) {
         this.gender = gender;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                '}';
     }
 }
