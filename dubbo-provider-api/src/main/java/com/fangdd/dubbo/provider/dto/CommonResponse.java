@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * This is Description
  *
- * @author chenruifeng
+ * @author wwg
  * @date 2019/8/17
  */
 public class CommonResponse<T> implements Serializable {

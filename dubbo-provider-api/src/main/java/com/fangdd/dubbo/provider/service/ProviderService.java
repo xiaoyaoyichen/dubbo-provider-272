@@ -6,7 +6,7 @@ import com.fangdd.dubbo.provider.dto.Student;
 /**
  * dubbo接口
  *
- * @author chenruifeng
+ * @author wwg
  * @date 2019/08/16
  */
 public interface ProviderService {

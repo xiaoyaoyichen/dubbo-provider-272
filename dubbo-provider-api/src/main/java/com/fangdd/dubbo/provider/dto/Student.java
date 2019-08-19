@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * This is Description
  *
- * @author chenruifeng
+ * @author wwg
  * @date 2019/08/16
  */
 public class Student implements Serializable {

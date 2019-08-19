@@ -14,9 +14,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.fandd</groupId>
-    <artifactId>dubbo-provider-262</artifactId>
+    <artifactId>dubbo-provider-272</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>dubbo-provider-262</name>
+    <name>dubbo-provider-272</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

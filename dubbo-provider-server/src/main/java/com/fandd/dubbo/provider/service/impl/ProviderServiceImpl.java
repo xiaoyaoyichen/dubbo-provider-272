@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 /**
  * This is Description
  *
- * @author chenruifeng 2019/08/16
+ * @author wwg 2019/08/16
  */
 @Service
-@com.alibaba.dubbo.config.annotation.Service(version = "1.0.0")
+@org.apache.dubbo.config.annotation.Service
 @Slf4j
 public class ProviderServiceImpl implements ProviderService {
 
